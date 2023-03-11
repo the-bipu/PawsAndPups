@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shantell Sans', cursive;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.header a {
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.secTion {
+    text-align: center;
+    align-items: center;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: 500;
+    height: 40px;
+    width: 160px;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn2 {
+    font-size: 15px;
+    font-weight: 500;
+    height: 40px;
+    width: 160px;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.dogs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.random_cats {
+    width: 40%;
+}
+
+.random_dogs {
+    width: 40%;
+}
+
+img {
+    border: 3px solid #000;
+    max-width: 400px;
+    height: auto;
+}
+
+@media (min-width : 768px) {
+    img {
+        border: 3px solid #000;
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width : 767px) {
+    img {
+        border: 3px solid #000;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .btn,
+    .btn2 {
+        font-size: auto;
+        font-weight: 500;
+        height: 100%;
+        width: auto;
+        border-radius: 2px;
+        padding: auto;
+    }
+}

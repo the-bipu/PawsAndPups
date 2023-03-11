@@ -39,18 +39,7 @@ body {
     align-items: center;
 }
 
-.btn {
-    font-size: 15px;
-    font-weight: 500;
-    height: 40px;
-    width: 160px;
-    border: 2px solid #000;
-    border-radius: 2px;
-    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
+.btn,
 .btn2 {
     font-size: 15px;
     font-weight: 500;
@@ -63,13 +52,7 @@ body {
     cursor: pointer;
 }
 
-.cats {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90%;
-}
-
+.cats,
 .dogs {
     display: flex;
     justify-content: center;
@@ -77,10 +60,7 @@ body {
     height: 90%;
 }
 
-.random_cats {
-    width: 40%;
-}
-
+.random_cats,
 .random_dogs {
     width: 40%;
 }
@@ -89,30 +69,4 @@ img {
     border: 3px solid #000;
     max-width: 400px;
     height: auto;
-}
-
-@media (min-width : 768px) {
-    img {
-        border: 3px solid #000;
-        width: 90%;
-        height: auto;
-    }
-}
-
-@media (max-width : 767px) {
-    img {
-        border: 3px solid #000;
-        max-width: 100%;
-        height: auto;
-    }
-
-    .btn,
-    .btn2 {
-        font-size: auto;
-        font-weight: 500;
-        height: 100%;
-        width: auto;
-        border-radius: 2px;
-        padding: auto;
-    }
 }

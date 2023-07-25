@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
 
 * {
     margin: 0;
@@ -9,7 +10,7 @@
 
 body {
     min-height: 100vh;
-    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     background-size: cover;
     background-position: center;
 }
@@ -28,10 +29,12 @@ body {
 }
 
 .header a {
+    font-family: 'Lugrasimo', cursive;
     color: #000;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     text-decoration: none;
+    /* text-transform: uppercase; */
 }
 
 .secTion {
@@ -42,14 +45,24 @@ body {
 .btn,
 .btn2 {
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
     height: 40px;
     width: 160px;
-    border: 2px solid #000;
-    border-radius: 2px;
-    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    border: none;
+    border-radius: 20px;
+    color: #000;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
     padding: 5px 10px;
     cursor: pointer;
+    outline: none;
+}
+
+.btn:hover,
+.btn2:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
 }
 
 .cats,

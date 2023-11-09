@@ -1,4 +1,4 @@
-# the-cats-repo
+# PawsAndPups
  Showing pictures of cat and dogs using API.
 
  # Cats and Dogs
